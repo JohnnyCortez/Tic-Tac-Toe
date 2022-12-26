@@ -1,0 +1,35 @@
+.board {
+    display: flex;
+    flex-wrap: wrap;
+    width: 300px;
+    height: 300px;
+    border: 1px solid #ccc;
+    margin: 0 auto;
+  }
+  
+  .board td {
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 48px;
+    border: 1px solid #ccc;
+  }
+  
+  .board td.X {
+    color: #f00;
+  }
+  
+  .board td.O {
+    color: rgb(6, 6, 234);
+  }
+  
+  .reset-button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #ccc;
+    border: 0;
+    font-size: 18px;
+  }
+  
